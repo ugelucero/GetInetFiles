@@ -25,7 +25,6 @@ namespace UgeLucero.Utilities
         
         static int Main(string[] args)
         {
-            //TODO: controlar los parametros de entrada y imprimir ayuda.
             using (WebClient wc = new WebClient())
             {
                 if (startControl(args))
